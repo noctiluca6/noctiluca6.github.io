@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.headbox {
+    margin: auto;
+    background: rabg(0, 0, 0, 0)
+}
+
+.loge {
+    width: 400px;
+    height: 235px;
+    float: left;
+    background: rabg(0, 0, 0, 0)
+}
+
+.loge2 {
+    width: 800px;
+    height: 235px;
+    float: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.two {
+    height: 400px;
+
+}
+
+.two .banxin {
+    height: 400px;
+    background: url(images/舞狮背景2.jpg) no-repeat top center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subnav {
+    height: 400px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.subnav li {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-top: solid 1px rgb(54, 49, 49);
+}
+
+.subnav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(17, 16, 16);
+}
+
+.subnav a:hover {
+    color: rgb(241, 225, 8);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+p {
+    text-indent: 2em;
+}

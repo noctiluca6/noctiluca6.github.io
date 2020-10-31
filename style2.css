@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.box {
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(201, 204, 35);
+    margin: 60px auto;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.leftbox {
+    float: left;
+    width: 200px;
+    height: 700px;
+    background-color: rgb(243, 243, 247);
+}
+
+.rightbox {
+    float: left;
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(157, 161, 157);
+}
+
+.littlebox {
+    float: left;
+    margin: 15px;
+    width: 220px;
+    height: 300px;
+    background-color: rgb(247, 242, 243);
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-indent: 2em;
+}
